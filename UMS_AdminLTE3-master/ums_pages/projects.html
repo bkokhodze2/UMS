@@ -1,0 +1,1097 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>UMS | Dashboard</title>
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- IonIcons -->
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+</head>
+<!--
+BODY TAG OPTIONS:
+=================
+Apply one or more of the following classes to to the body tag
+to get the desired effect
+|---------------------------------------------------------|
+|LAYOUT OPTIONS | sidebar-collapse                        |
+|               | sidebar-mini                            |
+|---------------------------------------------------------|
+-->
+<body class="hold-transition sidebar-mini">
+<div class="wrapper">
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="../index.html" class="nav-link">მთავარი</a>
+      </li>
+      <li class="nav-item d-none d-sm-inline-block">
+        <a href="contact.html" class="nav-link">კონტაქტი</a>
+      </li>
+    </ul>
+
+    <!-- SEARCH FORM -->
+    <form class="form-inline ml-3">
+      <div class="input-group input-group-sm">
+        <input class="form-control form-control-navbar" type="search" placeholder="ძიება" aria-label="Search">
+        <div class="input-group-append">
+          <button class="btn btn-navbar" type="submit">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+      <!-- Messages Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-comments"></i>
+          <span class="badge badge-danger navbar-badge">3</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  გიორგი ბერიძე
+                  <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">გთხოვთ დამიკავშირდეთ...</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 საათი</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  ლევან ლომიძე
+                  <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">ვადასტურებ შეტყობინების მიღებას</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 6 საათი</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <!-- Message Start -->
+            <div class="media">
+              <img src="../dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <div class="media-body">
+                <h3 class="dropdown-item-title">
+                  ნია ბარათაშვილი
+                  <span class="float-right text-sm text-warning"><i class="fas fa-star"></i></span>
+                </h3>
+                <p class="text-sm">საინტერესო შემოთავაზება მაქვს...</p>
+                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 7 საათი</p>
+              </div>
+            </div>
+            <!-- Message End -->
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">ყველა შეტყობინება</a>
+        </div>
+      </li>
+      <!-- Notifications Dropdown Menu -->
+      <li class="nav-item dropdown">
+        <a class="nav-link" data-toggle="dropdown" href="#">
+          <i class="far fa-bell"></i>
+          <span class="badge badge-warning navbar-badge">15</span>
+        </a>
+        <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+          <span class="dropdown-item dropdown-header">15 შეტყობინება</span>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-envelope mr-2"></i> 4 ახალი შეტყობინება
+            <span class="float-right text-muted text-sm">3 წუთი</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-users mr-2"></i> 8 მეგობრობის თხოვნა
+            <span class="float-right text-muted text-sm">12 საათი</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item">
+            <i class="fas fa-file mr-2"></i> 3 ახალი რეპორტი
+            <span class="float-right text-muted text-sm">2 დღე</span>
+          </a>
+          <div class="dropdown-divider"></div>
+          <a href="#" class="dropdown-item dropdown-footer">ყველა შეტყობინება</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button"><i
+            class="fas fa-th-large"></i></a>
+      </li>
+    </ul>
+  </nav>
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-dark-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="../index.html" class="brand-link">
+      <img src="../dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+           style="opacity: .8">
+      <span class="brand-text font-weight-light">სამართავი პანელი</span>
+    </a>
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="../dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">მომხმარებელი</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-building"></i>
+              <p>
+                სამუშაო გარემო
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="planned.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>დაგეგმილი</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="ongoing.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>მიმდინარე</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="finished.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>დასრულებული</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="projects.html" class="nav-link active">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                პროექტები
+                <span class="right badge badge-danger">ახალი</span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-calendar-day"></i>
+              <p>
+                ვადები
+                <i class="fas fa-angle-left right"></i>
+                <span class="badge badge-info right">6</span>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="deadline.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ვადა იწურება</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="complete_garanty.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>შესრულების გარანტია</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="payment.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ავანსის გარანტია</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="reserve.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>რეზერვის გარანტია</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="insurance.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>დაზღვევა</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="work_compl.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>სამუშაოების დასრულება</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-money-check"></i>
+              <p>
+                ანგარიშები
+                <i class="fas fa-angle-left right"></i>
+                <span class="badge badge-info right">6</span>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="budget_compl.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ბიუჯეტი/შესრულება</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="budget_plan.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ბიუჯეტის გეგმა</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="misdoc_audit.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Misdoc Audit</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="bi_audit.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>BI Audit</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="gov_ge.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Gov.ge</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="oris_pays.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Oris Pays</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="con_numcheck.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Contract Num Check</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="payments.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>გადახდები</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="changes_report.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ცვლილებების ანგარიში</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="sup_users.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Supervisor Users</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="contr_eval.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>კონტრაქტორის შეფასება</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-chart-pie"></i>
+              <p>
+                სტატისტიკა
+                <i class="right fas fa-angle-left"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="statuses.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>სტატუსები</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="payment_rep_o_m.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>გადახდების ანგარიში</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="cost.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ღირებულება</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="numberofprojects.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>პროექტების რაოდენობა</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="compliting.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>შესრულება</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon fas fa-toolbox"></i>
+              <p>
+                პარამეტრები
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="week_suprev.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Week Suprevisors</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="map.html" class="nav-link">
+              <i class="nav-icon fas fa-map-marker-alt"></i>
+              <p>
+                რუკა
+              </p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="responsoble.html" class="nav-link">
+              <i class="nav-icon fas fa-user-friends"></i>
+              <p>
+                პასუხისმგებელი პირები
+              </p>
+            </a>
+          </li>
+          <li class="nav-header">მენიუ</li>
+          <li class="nav-item">
+            <a href="calendar.html" class="nav-link">
+              <i class="nav-icon fas fa-calendar-alt"></i>
+              <p>
+                კალენდარი
+                <span class="badge badge-info right">2</span>
+              </p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-envelope"></i>
+              <p>
+                ელ.ფოსტა
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="inbox.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>ინბოქსი</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="send.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>მიწერე</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="read.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>წაიკითხე</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-plus-square"></i>
+              <p>
+                დამატებით
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="login.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>შესვლა</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="signup.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>რეგისტრაცია</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="recover.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>პაროლის აღდგენა</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-header">ლეგენდა</li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-circle text-danger"></i>
+              <p class="text">მნიშვნელოვანი</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-circle text-warning"></i>
+              <p>გაფრთხილება</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-circle text-info"></i>
+              <p>ინფორმაციული</p>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside>
+  <!-- Content Wrapper. Contains page content -->
+  <div class=" content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark ss">ყველა პროექტი</h1>
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">მთავარი</a></li>
+              <li class="breadcrumb-item active">პროექტები</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+        
+      </div><!-- /.container-fluid -->
+          
+    </div>
+    <style>
+      
+      .table >thead>tr>th{
+        padding:10px 1px;
+        margin:0px;
+        text-align: center;
+        vertical-align: middle;
+        background-color: #fff;
+        
+      }
+      .table >tbody >tr >td{
+        text-align: center;
+        padding: 5px 2px;
+        vertical-align: middle;
+      }
+      tbody tr:nth-child(odd){
+        background-color: #6a9ac5;
+        
+      }
+      .tableFixHead { 
+        overflow-y: auto;
+        height: 400px; 
+        width: 99%;
+        margin:0 auto;
+        margin-bottom: 70px;
+        -webkit-box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.44);
+      }
+      .table { 
+        border-collapse: collapse;
+        width: 100%; 
+      }
+      .table >tbody >tr>th{ 
+        background:#eee;
+        top: 5px;
+       }
+      
+       .details{
+        -webkit-box-shadow: 0px 0px 24px 11px rgba(79,77,79,1);
+        -moz-box-shadow: 0px 0px 24px 11px rgba(79,77,79,1);
+        box-shadow: 0px 0px 24px 11px rgba(79,77,79,1);
+        padding:10px;
+        margin-bottom: 200px;
+        width: 95%;
+        margin:0 auto;
+        order: 1;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+       }
+       .details_btn{
+         display: flex;
+        flex-grow: 1;
+        flex-basis: 20px;
+        margin: 10px;
+        cursor: pointer;
+        text-align: center;
+        align-items: center;
+        justify-content:space-evenly;
+        height:100px;
+        background-color:#373b3f;
+        color: #d5d7db;
+        border:none;
+        transition: 0.1s;
+       }
+       .btn-warning.focus, .btn-warning:focus{
+         background-color:#007bff;
+         color: white;
+       }
+       
+       .btn-warning:not(:disabled):not(.disabled).active, .btn-warning:not(:disabled):not(.disabled):active, .show>.btn-warning.dropdown-toggle{
+        background-color:#007bff;
+         color: white;
+       }
+       .details_btn:hover{
+         background-color: #57616b;
+         color:white;
+         -webkit-box-shadow: 0px 0px 7px 4px rgba(9,0,255,1);
+          -moz-box-shadow: 0px 0px 7px 4px rgba(9,0,255,1);
+          box-shadow: 0px 0px 7px 4px rgba(9,0,255,1);
+
+       }
+       .scroll{
+         width: 99%;
+         margin:50px auto;
+        overflow-y: auto;
+        -webkit-box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.44);
+        -moz-box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.44);
+        box-shadow: 0px 0px 12px 4px rgba(0,0,0,0.44);
+       }
+      </style>
+    <div class="tableFixHead table-responsive "> 
+        <table class="table table-bordered">
+        <thead >
+          <tr>
+            <th>ID</th>
+            <th>DOC</th>
+            <th>სტატუსი</th>
+            <th>დონორები</th>
+            <th>პროგრამა</th>
+            <th>დასახელება</th>
+            <th>რეგიონი</th>
+            <th>მუნიციპალიტეტი</th>
+            <th>ტიპოლოგია</th>
+            <th>ტიპი</th>
+            <th>დაწყება</th>
+            <th>დასრულება</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>9999-0832</td>
+            <td>DOC</td>
+            <td> დასრულებული</td>
+            <td>WB</td>
+            <td>RDP-III</td>
+            <td>მცხეთა-მთიანეთის რეგიონში ბიზნესის დაწყების/განვითარების საკონსულტაციო მომსახურება მცირე და საშუალო მეწარმეებისთვის</td>
+            <td>საერთო პროექტები</td>
+            <td>საერთო პროექტები</td>
+            <td>სხვა</td>
+            <td>კონსულტაცია</td>
+            <td>10.05.2018</td>
+            <td>10.12.2019 </td>
+          </tr>
+          <tr>
+            <td>9999-0832</td>
+            <td>DOC</td>
+            <td> დასრულებული</td>
+            <td>WB</td>
+            <td>RDP-III</td>
+            <td>მცხეთა-მთიანეთის რეგიონში ბიზნესის დაწყების/განვითარების საკონსულტაციო მომსახურება მცირე და საშუალო მეწარმეებისთვის</td>
+            <td>საერთო პროექტები</td>
+            <td>საერთო პროექტები</td>
+            <td>სხვა</td>
+            <td>კონსულტაცია</td>
+            <td>10.05.2018</td>
+            <td>10.12.2019 </td>
+          </tr>
+          <tr>
+            <td>9999-0832</td>
+            <td>DOC</td>
+            <td> დასრულებული</td>
+            <td>WB</td>
+            <td>RDP-III</td>
+            <td>მცხეთა-მთიანეთის რეგიონში ბიზნესის დაწყების/განვითარების საკონსულტაციო მომსახურება მცირე და საშუალო მეწარმეებისთვის</td>
+            <td>საერთო პროექტები</td>
+            <td>საერთო პროექტები</td>
+            <td>სხვა</td>
+            <td>კონსულტაცია</td>
+            <td>10.05.2018</td>
+            <td>10.12.2019 </td>
+          </tr>
+          <tr>
+            <td>9999-0832</td>
+            <td>DOC</td>
+            <td> დასრულებული</td>
+            <td>WB</td>
+            <td>RDP-III</td>
+            <td>მცხეთა-მთიანეთის რეგიონში ბიზნესის დაწყების/განვითარების საკონსულტაციო მომსახურება მცირე და საშუალო მეწარმეებისთვის</td>
+            <td>საერთო პროექტები</td>
+            <td>საერთო პროექტები</td>
+            <td>სხვა</td>
+            <td>კონსულტაცია</td>
+            <td>10.05.2018</td>
+            <td>10.12.2019 </td>
+          </tr>
+          <tr>
+            <td>9999-0832</td>
+            <td>DOC</td>
+            <td> დასრულებული</td>
+            <td>WB</td>
+            <td>RDP-III</td>
+            <td>მცხეთა-მთიანეთის რეგიონში ბიზნესის დაწყების/განვითარების საკონსულტაციო მომსახურება მცირე და საშუალო მეწარმეებისთვის</td>
+            <td>საერთო პროექტები</td>
+            <td>საერთო პროექტები</td>
+            <td>სხვა</td>
+            <td>კონსულტაცია</td>
+            <td>10.05.2018</td>
+            <td>10.12.2019 </td>
+          </tr>
+          <tr>
+            <td>9999-0832</td>
+            <td>DOC</td>
+            <td> დასრულებული</td>
+            <td>WB</td>
+            <td>RDP-III</td>
+            <td>მცხეთა-მთიანეთის რეგიონში ბიზნესის დაწყების/განვითარების საკონსულტაციო მომსახურება მცირე და საშუალო მეწარმეებისთვის</td>
+            <td>საერთო პროექტები</td>
+            <td>საერთო პროექტები</td>
+            <td>სხვა</td>
+            <td>კონსულტაცია</td>
+            <td>10.05.2018</td>
+            <td>10.12.2019 </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+    <div class="details">
+      <button type="button" class="details_btn btn btn-warning" id="gadaxdebi" data-target="data_gadaxdebi">გადახდები</button>
+      <button type="button" class="details_btn btn btn-warning" id="gadaxdebi_wlebis_mixedvit" data-target="data_gadaxdebi_wlebis_mixedvit">გადახდები წლების მიხედვით</button>
+      <button type="button" class="details_btn btn btn-warning" id="girebulebis_cvlileba" data-target="data_girebulebis_cvlileba">ღირებულების ცვლილება</button>
+      <button type="button" class="details_btn btn btn-warning" id="kontraqtis_vadis_cvlileba" data-target="data_kontraqtis_vadis_cvlileba">კონტრაქტის ვადის ცვლილება</button>
+      <button type="button" class="details_btn btn btn-warning" id="mivlineba" data-target="data_mivlineba">მივლინება</button>
+      <button type="button" class="details_btn btn btn-warning" id="gadaxda_wlebit(oris)" data-target="data_gadaxda_wlebit_oris">გადახდა წლებით (oris)</button>
+      <button type="button" class="details_btn btn btn-warning" id="tenderi" data-target="data_tenderi">ტენდერი</button>
+      <button type="button" class="details_btn btn btn-warning" id="garantiebi" data-target="data_garantiebi">გარანტიები</button>
+      <button type="button" class="details_btn btn btn-warning" id="gadaxdebi_oris" data-target="data_gadaxdebi_oris">გადახდები (oris)</button>
+      <button type="button" class="details_btn btn btn-warning" id="pasuxismgebeli" data-target="data_pasuxismgebeli">პასუხისმგებელი</button>
+      <button type="button" class="details_btn btn btn-warning" id="proeqtis_agwera" data-target="data_proeqtis_agwera">პროექტის აღწერა</button>
+    </div>
+
+    <div id="content" class="">
+      <div id="data_gadaxdebi" class="scroll">
+        <table class="table table-bordered">
+          <thead >
+            <tr>
+              <th>ID</th>
+              <th>ტიპი</th>
+              <th>N</th>
+              <th>თარიღი</th>
+              <th>წარმომადგენელი</th>
+              <th>ავანსი</th>
+              <th>რეზერვი</th>
+              <th>გადასახდელი</th>
+              <th>დონორი</th>
+              <th>სახელმწიფო</th>
+              <th>მუნიციპალიტეტი</th>
+              <th>გადახდილი </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0301-0052</td>
+              <td>შსა</td>
+              <td>01</td>
+              <td>28.09.2018</td>
+              <td>127 527,32 	</td>
+              <td>28 339,40</td>
+              <td>6 376,37</td>
+              <td>92 811,55</td>
+              <td>74 249,24</td>
+              <td>18 562,31</td>
+              <td>მცხეთა</td>
+              <td>92 811,55</td>
+            </tr>
+            <tr>
+              <td>0301-0052</td>
+              <td>შსა</td>
+              <td>01</td>
+              <td>28.09.2018</td>
+              <td>127 527,32 	</td>
+              <td>28 339,40</td>
+              <td>6 376,37</td>
+              <td>92 811,55</td>
+              <td>74 249,24</td>
+              <td>18 562,31</td>
+              <td>მცხეთა</td>
+              <td>92 811,55</td>
+            </tr>
+            <tr>
+              <td>0301-0052</td>
+              <td>შსა</td>
+              <td>01</td>
+              <td>28.09.2018</td>
+              <td>127 527,32 	</td>
+              <td>28 339,40</td>
+              <td>6 376,37</td>
+              <td>92 811,55</td>
+              <td>74 249,24</td>
+              <td>18 562,31</td>
+              <td>მცხეთა</td>
+              <td>92 811,55</td>
+            </tr>
+            <tr>
+              <td>0301-0052</td>
+              <td>შსა</td>
+              <td>01</td>
+              <td>28.09.2018</td>
+              <td>127 527,32 	</td>
+              <td>28 339,40</td>
+              <td>6 376,37</td>
+              <td>92 811,55</td>
+              <td>74 249,24</td>
+              <td>18 562,31</td>
+              <td>მცხეთა</td>
+              <td>92 811,55</td>
+            </tr>
+            <tr>
+              <td>0301-0052</td>
+              <td>შსა</td>
+              <td>01</td>
+              <td>28.09.2018</td>
+              <td>127 527,32 	</td>
+              <td>28 339,40</td>
+              <td>6 376,37</td>
+              <td>92 811,55</td>
+              <td>74 249,24</td>
+              <td>18 562,31</td>
+              <td>მცხეთა</td>
+              <td>92 811,55</td>
+            </tr>
+            <tr>
+              <td>0301-0052</td>
+              <td>შსა</td>
+              <td>01</td>
+              <td>28.09.2018</td>
+              <td>127 527,32 	</td>
+              <td>28 339,40</td>
+              <td>6 376,37</td>
+              <td>92 811,55</td>
+              <td>74 249,24</td>
+              <td>18 562,31</td>
+              <td>მცხეთა</td>
+              <td>92 811,55</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      <div id="data_gadaxdebi_wlebis_mixedvit" class="scroll">
+        <table class="table table-bordered">
+          <thead >
+            <tr>
+              <th>ID</th>
+              <th>წელი</th>
+              <th>დონორი</th>
+              <th>სახელმწიფო</th>
+              <th>მუნიციპალიტეტი</th>
+              <th>მფგ</th>
+              <th>სულ</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0301-0052</td>
+              <td>2018</td>
+              <td>1 129 145,81</td>
+              <td>285 735,64</td>
+              <td>0,00</td>
+              <td>0,00</td>
+              <td>1 414 881,45</td>
+            </tr>
+            <tr>
+              <td>0301-0052</td>
+              <td>2018</td>
+              <td>1 129 145,81</td>
+              <td>285 735,64</td>
+              <td>0,00</td>
+              <td>0,00</td>
+              <td>1 414 881,45</td>
+            </tr>
+            <tr>
+              <td>0301-0052</td>
+              <td>2018</td>
+              <td>1 129 145,81</td>
+              <td>285 735,64</td>
+              <td>0,00</td>
+              <td>0,00</td>
+              <td>1 414 881,45</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      <div id="data_girebulebis_cvlileba">
+        <table class="table table-bordered scroll">
+          <thead >
+            <tr>
+              <th><input type="checkbox"></th>
+              <th>ID</th>
+              <th>N</th>
+              <th>თარიღი</th>
+              <th>ცვლილება</th>
+              <th>მიზეზი</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>0301-0052</td>
+              <td>1</td>
+              <td>29.11.2018</td>
+              <td>881 458,93 	</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>0301-0052</td>
+              <td>1</td>
+              <td>29.11.2018</td>
+              <td>881 458,93 	</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>0301-0052</td>
+              <td>1</td>
+              <td>29.11.2018</td>
+              <td>881 458,93 	</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>0301-0052</td>
+              <td>1</td>
+              <td>29.11.2018</td>
+              <td>881 458,93 	</td>
+              <td>-</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      <div id="data_kontraqtis_vadis_cvlileba">
+        <table class="table table-bordered scroll">
+          <thead >
+            <tr>
+              <th><input type="checkbox"></th>
+              <th>ID</th>
+              <th>N</th>
+              <th>ცვლილების თარიღი</th>
+              <th>ცვლილება</th>
+              <th>მიზეზი</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>0301-0052</td>
+              <td>1</td>
+              <td>29.11.2018</td>
+              <td>881 458,93 	</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>0301-0052</td>
+              <td>1</td>
+              <td>29.11.2018</td>
+              <td>881 458,93 	</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>0301-0052</td>
+              <td>1</td>
+              <td>29.11.2018</td>
+              <td>881 458,93 	</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td><input type="checkbox"></td>
+              <td>0301-0052</td>
+              <td>1</td>
+              <td>29.11.2018</td>
+              <td>881 458,93 	</td>
+              <td>-</td>
+            </tr>
+            
+          </tbody>
+        </table>
+      </div>
+      <div id="data_mivlineba">
+        <table class="table table-bordered scroll">
+          <thead >
+            <tr>
+              <th>ID</th>
+              <th>ზედამხედველი</th>
+              <th>ტელეფონი</th>
+              <th>მივლ.დაწყება</th>
+              <th>მივლ.დასრულება</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0301-0052</td>
+              <td>ჩივაძე მერაბ</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            
+            
+          </tbody>
+        </table>
+          
+      </div>
+      <div id="data_gadaxda_wlebit_oris">
+        <p>gadaxda wllebiit</p>
+        
+       </div>
+      <div id="data_tenderi">
+        <p>tenderi</p>
+      
+      </div>
+      <div id="data_garantiebi">
+        <p>garantiebi</p>
+    
+      </div>
+      <div id="data_gadaxdebi_oris">
+        <p>gadaxdebi</p>
+    
+      </div>
+      <div id="data_pasuxismgebeli">
+        <p>pasuxsimgebeli</p>
+    
+      </div>
+      <div id="data_proeqtis_agwera">
+        <p>proeqtis agwera</p>
+    
+      </div>
+  </div>
+
+    
+  
+  
+    <!-- /.content-header -->
+
+    <!-- Main content -->
+    <section class="content">
+      <div class="container-fluid">
+        <!-- Small boxes (Stat box) -->
+
+      </div><!-- /.container-fluid -->
+    </section>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <strong>Copyright &copy; 2020 <a href="http://adminlte.io">Mi-Un.Ge</a>.</strong>
+    All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 1.0.0
+    </div>
+  </footer>
+
+
+<script src="../plugins/jquery/jquery.min.js"></script>
+<!-- Fixed table head -->
+<script>
+$(document).ready(function () {
+  $('#content div').hide();
+  $("#data_gadaxdebi").show();
+  $('.btn').click(function() {
+    
+  $('#content div').hide();
+    var target = '#' + $(this).data('target');
+    $(target).show();
+    
+    });
+
+    var $th = $('.tableFixHead').find('thead th')
+    $('.tableFixHead').on('scroll', function() {
+    $th.css('transform', 'translateY('+ this.scrollTop +'px)');
+      });
+  });
+</script>
+
+<!-- Bootstrap -->
+<script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE -->
+<script src="../dist/js/adminlte.js"></script>
+
+<!-- OPTIONAL SCRIPTS -->
+<script src="../plugins/chart.js/Chart.min.js"></script>
+<script src="../dist/js/demo.js"></script>
+<script src="../dist/js/pages/dashboard3.js"></script>
